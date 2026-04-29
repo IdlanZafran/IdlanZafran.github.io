@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Idlan Zafran - Resume</title>
+    <style>
+        body { 
+            margin: 0; 
+            padding: 0; 
+            font-family: sans-serif;
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+            background-color: #f4f4f4;
+        }
+        .header {
+            background: #24292e; /* GitHub dark grey */
+            color: white;
+            padding: 15px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .btn-download {
+            background-color: #2ea44f; /* Professional green */
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 6px;
+            font-weight: bold;
+            transition: background 0.2s;
+        }
+        .btn-download:hover {
+            background-color: #2c974b;
+        }
+        embed { 
+            flex-grow: 1;
+            width: 100%;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <span>Idlan Zafran - Mechanical Engineering CV</span>
+        <a href="resume.pdf" download class="btn-download">Download PDF</a>
+    </div>
+
+    <embed src="resume.pdf" type="application/pdf" />
+
+</body>
+</html>
